@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>KILL CORONA!</title>
+  <link rel="stylesheet" href="styling.css" />
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+  <link rel="shortcut icon" href="images/folder_games.ico" type="image/x-icon">
+</head>
+
+<body>
+  <div id="container">
+    <div id="score">score: <span id="scoreValue"></span></div>
+    <div id="trialsLeft">
+      <div id="vaccineContainer"></div>
+    </div>
+
+    <div id="virusContainer">
+      <img id="virus1" class="virus" />
+    </div>
+    <div id="instruction">KILL CORONA VIRUSES!! &#128545;</div>
+    <div id="startreset">Start Game</div>
+    <div id="gameOver"></div>
+  </div>
+  <audio id="audioSlice">
+    <source src="audio/slice.mp3">
+    <source src="audio/slice.ogg">
+
+  </audio>
+  <audio id="audioVaccineLoss">
+    <source src="audio/fail.mp3">
+    <source src="audio/fail.ogg">
+
+  </audio>
+  <audio id="audioGameOver">
+    <source src="audio/gameOver.mp3">
+    <source src="audio/gameOver.ogg">
+
+  </audio>
+  </audio>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script src="jquery.js"></script>
+</body>
+
+</html>
